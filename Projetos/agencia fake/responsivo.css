@@ -1,0 +1,40 @@
+@media screen and (max-width: 1005px){
+.navbar{
+    position: relative;
+    height: auto;
+}
+.menu{
+    display:none;
+}
+.logo{
+    flex: 100%;
+    text-align: center;
+}
+header{
+    padding-top: 0px;
+}
+.esquerda{
+    flex:100%;
+    text-align: center;
+}
+.direita{
+    flex: 100%;
+    text-align: center;
+}
+.direita img{
+    width: 350px;
+    height: 350px;
+}
+section{
+    position: static;
+    height: auto;
+}
+section .card{
+    width: 100%;
+    display: block;
+    position:static;
+}
+#whats{
+    display: none;
+}
+}

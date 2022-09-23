@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="urna">
+        <div class="tela">
+            <div class="d1">
+                <div class="d1-left">
+                    <div class="d1-1">Seu Voto para</div>
+                <div class="d1-2">Prefeito</div>
+                <div class="d1-3">
+                    <div class="numero pisca"></div>
+                    <div class="numero"></div>
+                </div>
+                <div class="d1-4">
+                    Nome: Fulano.<br/>
+                    Partido: ABC.<br/>
+                    Vice: Beltrano.<br/>
+                </div>
+                </div>
+                <div class="d1-right">
+                    <img src="img/p2.jpg" alt="">
+                    <img src="img/v2.jpg" alt="">
+                </div>
+            </div>
+            <div class="d2">
+                Aperte CONFIRMA para CONFIRMAR o voto.<br/>
+                Aperte CORRIGE para CORRIGIR o voto.
+            </div>
+        </div>
+        <div class="painel">
+            <div class="linha-button">
+                <div onclick="clicar('1')">1</div>
+                <div onclick="clicar('2')">2</div>
+                <div onclick="clicar('3')">3</div>
+            </div>
+            <div class="linha-button">
+                <div onclick="clicar('4')">4</div>
+                <div onclick="clicar('5')">5</div>
+                <div onclick="clicar('6')">6</div>
+            </div>
+            <div class="linha-button">
+                <div onclick="clicar('7')">7</div>
+                <div onclick="clicar('8')">8</div>
+                <div onclick="clicar('9')">9</div>
+            </div>
+            <div class="linha-button">
+                <div onclick="clicar('0')">0</div>
+            </div>
+            <div class="linha-fundo">
+                <div class="branco">BRANCO</div>
+                <div class="corrige">CORRIGE</div>
+                <div class="confirma" onclick="confirma()">CONFIRMA</div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="etapas.js"></script>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,133 @@
+@keyframes pisca{
+    0%{ opacity: 0.2;}
+    50%{ opacity:1;}
+    100%{ opacity: 0.2;}
+}
+*{
+    box-sizing: border-box;
+}
+.urna{
+    border: 1px solid;
+    width: 900px;
+    height: 500px;
+    background-color: #dcd9cc;
+    display: flex;
+    align-items: center;
+}
+.tela{
+    width: 60%;
+    height: 80%;
+    background-color: white;
+    margin-left: 4%;
+    font-size: 25px;
+}
+.d1{
+    border: 1px solid;
+    width: 100%;
+    height: 75%;
+    display: flex;
+}
+.d1-left{
+    width: 75%;
+}
+.d1-1{
+    margin: 10px;
+}
+.d1-2{
+    text-align: center;
+}
+.d1-3{
+    margin-left: 10px;
+    display: flex;
+}
+.numero{
+    border: 3px solid;
+    width: 60px;
+    height: 80px;
+    display: inline-block;
+    font-size: 40px;
+    text-align: center;
+    line-height: 70px;
+    margin-right: 10px;
+}
+.pisca{
+    animation-name: pisca;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.d1-4{
+    margin: 10px;
+}
+.d1-right{
+    /* border: 1px solid; */
+    width: 25%;
+    height: 100%;
+}
+img{
+    height: 45%;
+    width: 100%;
+    margin: 0%;
+}
+.d2{
+    border: 1px solid;
+    width: 100%;
+    height: 25%;
+}
+
+
+.painel{
+    width: 32%;
+    height: 80%;
+    background-color: black;
+    margin-left: 2%;
+}
+.linha-button{
+    /* border: 1px solid white; */
+    height: 19%;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.linha-button div{
+    width: 30%;
+    height: 90%;
+    /* border: 1px solid; */
+    text-align: center;
+    line-height:70px;
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 2px 2px 0px #aaa;
+    background-color: rgb(41, 41, 41);
+    font-size: 30px;
+}
+.linha-fundo{
+    display: flex;
+    height: 24%;
+    justify-content: center;
+    margin-top: 10px;
+}
+.linha-fundo div{
+    /* border: 1px solid white; */
+    width: 28%;
+    height: 75%;
+    text-align: center;
+    line-height: 80px;
+    margin: 5px;
+    box-shadow: 2px 2px 0px #aaa;
+}
+.branco{
+    background-color: white;
+}
+.corrige{
+    background-color: orange;
+}
+.linha-fundo .confirma{
+    background-color: green;
+    width: 35%;
+}
+.linha-button div:hover, .linha-fundo div:hover{
+    cursor: pointer;
+}
+.linha-button div:active, .linha-fundo div:active{
+    box-shadow: -2px -2px 0px #aaa;
+}
