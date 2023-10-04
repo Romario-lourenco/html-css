@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Estilos do modo dark */
+body.dark-theme {
+    background-color: #222;
+    color: #fff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#toggle-theme-btn {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 2rem;
+}
+
+section h2 {
+    margin-bottom: 1rem;
+}
+
+.projeto {
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Adicionando o tema dark*/ 
+ header, nav ul li a, .projeto {
+    background-color: #222;
+}
+
+/*section, footer {
+    background-color: #444;
+}*/
+
+h2 {
+    color: #fff;
+}
+
+footer p {
+    color: #ccc;
+}
+
+/* Mudando as cores dos links */
+nav ul li a {
+    color: #ddd;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+a {
+    color: #337ab7;
+}
+
+a:hover {
+    color: #23527c;
+}
+
+/* Estilizando os ícones */
+.projeto i {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+/* Estilizando a seção de contato */
+#contato {
+    color: #fff;
+}
+
+#contato a {
+    color: #337ab7;
+}
+
+#contato a:hover {
+    color: #23527c;
+}

@@ -1,0 +1,48 @@
+#ex{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#navlist {
+    display: flex;
+  }
+  #navlist li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    top: 0;
+  }
+  #navlist li, #navlist a {
+    height: 44px;
+    display: block;
+    margin-left: 5px;
+  }
+  #home{
+
+      width: 46px;
+      background:url(img/navsprits.gif) 0 0;
+  }
+  #prev{
+
+      width: 43px;
+      background:url(img/navsprits.gif) -47px 0px;
+  }
+  #next{
+
+    width: 43px;
+    background:url(img/navsprits.gif) -91px 0;
+}
+#home:hover{
+
+    width: 46px;
+    background:url(img/navsprits.gif) 0 -45px;
+}
+#prev:hover{
+
+    width: 43px;
+    background:url(img/navsprits.gif) -47px -45px;
+}
+#next:hover{
+
+  width: 43px;
+  background:url(img/navsprits.gif) -91px -45px;
+}
