@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Multiplos planos de fundo.</h1>
+    <h2>Exemplo 1</h2>
+    <p>O seguinte elemento div possui duas imagens de fundo.</p>
+    <div class="box1">     
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+        <br><br><br>
+    </div>
+    <h2>Exemplo 2</h2>
+    <p>No exemplo a seguir temos o mesmo plano de fundo feito com <b>background</b> abreviado.</p>
+    <div class="box2">     
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+        <br><br><br>
+    </div>
+    <h2>Tamanho da imagem</h2>
+    <p>No exemplo a seguir redimencionei a imagem para 100px por 80px.</p>
+    <div class="box3">
+        <div class="img1">Redimencionado</div>
+        <div class="img2">Original</div>
+    </div>
+    <h2>Background-size: contain e cover</h2>
+    <div class="box4">
+        <div class="img1">background-size:contain</div>
+        <div class="img2">background-size:cover</div>
+        <div class="img3">original</div>
+    </div>
+    <h2>background-origin:</h2>
+    <p>Especifica onde a imagem de fundo esta posicionada. Temos tres valores:</p>
+    <p><b>	&bull; border-box:</b> a imagem de fundo começa no canto superior esquerdo da borda.</p>
+    <p><b>	&bull; padding-box:</b> a imagem começa no canto superior esquerdo na borda do preenchimento.</p>
+    <p><b>	&bull; content-box:</b> a imagem começa no canto superior esquedo do conteudo.</p>
+
+    <div class="box5">
+        <div class="example1"> <p>background-origin: border-box;</p>
+            <h3>Lorem Ipsum dolor</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ratione quis laudantium, 
+                pariatur aliquid molestias obcaecati, iusto enim eveniet numquam id nulla quo quisquam, magni
+                asperiores sit ex amet! Tempore.
+            </p>
+        </div>
+        <div class="example2"> <p>background-origin: padding-box;</p>
+            <h3>Lorem Ipsum dolor</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ratione quis laudantium, 
+                pariatur aliquid molestias obcaecati, iusto enim eveniet numquam id nulla quo quisquam, magni
+                asperiores sit ex amet! Tempore.
+            </p>
+        </div>
+        <div class="example3"> <p>background-origin: content-box;</p>
+            <h3>Lorem Ipsum dolor</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ratione quis laudantium, 
+                pariatur aliquid molestias obcaecati, iusto enim eveniet numquam id nulla quo quisquam, magni
+                asperiores sit ex amet! Tempore.
+            </p>
+        </div>
+    </div>
+    <h2>background-clip</h2>
+    <p>Esta propriedade fuciona igual ao background-origin, mas com a cor de fundo. E tambem asume tres valores.</p>
+    <p>
+        <b>	&bull; border-box</b><br>
+        <b>	&bull; padding-box</b><br>
+        <b> &bull; content-box</b><br>
+    </p>
+    <div class="box6">
+        <div class="example1"> <p>background-origin: border-box;</p>
+            <h3>Lorem Ipsum dolor</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ratione quis laudantium, 
+                pariatur aliquid molestias obcaecati, iusto enim eveniet numquam id nulla quo quisquam, magni
+                asperiores sit ex amet! Tempore.
+            </p>
+        </div>
+        <div class="example2"> <p>background-origin: padding-box;</p>
+            <h3>Lorem Ipsum dolor</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ratione quis laudantium, 
+                pariatur aliquid molestias obcaecati, iusto enim eveniet numquam id nulla quo quisquam, magni
+                asperiores sit ex amet! Tempore.
+            </p>
+        </div>
+        <div class="example3"> <p>background-origin: content-box;</p>
+            <h3>Lorem Ipsum dolor</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ratione quis laudantium, 
+                pariatur aliquid molestias obcaecati, iusto enim eveniet numquam id nulla quo quisquam, magni
+                asperiores sit ex amet! Tempore.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

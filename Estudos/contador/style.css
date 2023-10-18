@@ -1,0 +1,14 @@
+body{
+    
+}
+h1{
+    counter-reset: section;
+    list-style-type: none;
+}
+h1::before{
+
+}
+h2::before{
+    counter-increment: section;
+    content: counters(section,".")" ";
+}

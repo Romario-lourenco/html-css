@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+body>h1, body>h2, body>p{
+    color: #fff;
+}
+body{
+    padding: 20px;
+    background: url(noite.jpeg) center no-repeat fixed;
+    background-size: cover;
+}
+.box1{
+    background-image: url(flower.gif),url(paper.jpg);
+    background-position: top right,top left;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+}
+.box2{
+    margin-top: 30px;
+    background: url(flower.gif) top right no-repeat,url(paper.jpg) left repeat;
+    padding: 15px;
+}
+.box3{
+    display: flex;
+    border: 1px solid;
+    padding:20px;
+    background-color: #ddd;
+}
+.box3 .img1{
+    height: 200px;
+    width: 250px;
+    background-image: url(flower.gif);
+    background-repeat: no-repeat;
+    background-size: 100px 80px;
+}
+.box3 .img2{
+    height: 200px;
+    width: 250px;
+    background-image: url(flower.gif);
+    background-repeat: no-repeat;
+}
+.box4{
+    display: flex;
+    padding: 15px;
+    background-color: #ddd;
+}
+.box4 .img1{
+    border: 1px solid;
+    width: 150px;
+    height: 110px;
+    background-image: url(flower.gif);
+    background-size: contain;
+}
+.box4 .img2{
+    border: 1px solid;
+    width: 150px;
+    height: 110px;
+    background-image: url(flower.gif);
+    background-size: cover;
+    margin-left: 20px;
+}
+.box4 .img3{
+    border: 1px solid;
+    width: 150px;
+    height: 110px;
+    background-image: url(flower.gif);
+    margin-left: 20px;
+}
+.box5{
+    display: flex;
+}
+.box5 .example1{
+    background-color: #ddd;
+    padding: 35px;
+    width: 30%;
+    border: 10px solid #fff;
+    background-image: url(flower.gif);
+    background-repeat: no-repeat;
+    background-origin:border-box;
+}
+.box5 .example2{
+    background-color: #ddd;
+    padding: 35px;
+    width: 30%;
+    border: 10px solid #fff;
+    background-image: url(flower.gif);
+    background-repeat: no-repeat;
+    background-origin:padding-box;
+    margin-left: 10px;
+}
+.box5 .example3{
+    background-color: #ddd;
+    padding: 35px;
+    width: 30%;
+    border: 10px solid #fff;
+    background-image: url(flower.gif);
+    background-repeat: no-repeat;
+    background-origin:content-box;
+    margin-left: 10px;
+}
+.box6{
+    display: flex;
+}
+.box6 .example1{
+    background-color: #ddd;
+    padding: 35px;
+    width: 30%;
+    border: 10px dashed #fff;
+    background-clip:border-box;
+}
+.box6 .example2{
+    background-color: #ddd;
+    padding: 35px;
+    width: 30%;
+    border: 10px dashed #fff ;
+    background-clip:padding-box;
+    margin-left: 10px;
+}
+.box6 .example3{
+    background-color: #ddd;
+    padding: 35px;
+    width: 30%;
+    border: 10px dashed #fff;
+    background-clip:content-box;
+    margin-left: 10px;
+}
