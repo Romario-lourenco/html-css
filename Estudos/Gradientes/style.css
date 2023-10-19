@@ -1,0 +1,27 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+.sintaxe{
+    padding: 0px 10px;
+    border: 1px solid;
+    width:fit-content;
+}
+.card{
+    max-width: 800px;
+    height: 150px;
+    color: #fff;
+    padding: 30px;
+}
+#card1{
+    background-image: linear-gradient(red,yellow);
+}
+#card2{
+    background-image: linear-gradient(to right,red,yellow);
+}
+#card3{
+    background-image: linear-gradient(to right bottom ,red,yellow);
+}
