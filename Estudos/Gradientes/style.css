@@ -25,3 +25,18 @@ body{
 #card3{
     background-image: linear-gradient(to right bottom ,red,yellow);
 }
+    #card4{
+        background-image: linear-gradient(180deg,red,yellow);
+    }
+    #card5{
+        background-image: linear-gradient(90deg,red,yellow);
+    }
+    #card6{
+        background-image: linear-gradient(155deg,red,yellow);
+    }
+    #card7{
+        background-image:linear-gradient(red,yellow,green)
+    }
+    #card8{
+        background-image:linear-gradient(to right,red,orange,yellow,green,blue,indigo,violet);
+    }
