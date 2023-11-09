@@ -1,0 +1,78 @@
+@keyframes animate{
+    form {transform: rotate(0);}
+    to {transform: rotate(360deg);}
+}
+@keyframes blocoanim3 {
+    0% {top: 50px;}
+    20% {top: 0px;}
+    60%{top: 50px;}
+    100%{ top: 50px;}
+}
+@keyframes blocoanim2 {
+    0% {top: 50px;}
+    20% {top: 0px;}
+    60%{top: 50px;}
+    100%{ top: 50px;}
+}
+@keyframes blocoanim1 {
+    0% {top: 50px;}
+    20% {top: 0px;}
+    60%{top: 50px;}
+    100%{ top: 50px;}
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 99vh;
+}
+.box{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.box::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 350px;
+    background-image: linear-gradient(to top, white, white, white, blue, blue,blue);
+    animation: animate 4s linear infinite;
+}
+.box::after{
+    content: '';
+    position: absolute;
+    inset: 5px;
+    border-radius: 12px;
+    background-color: #fff;
+}
+.bloco{
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    z-index: 1;
+    margin-left: 30px;
+}
+#bloco1{
+    position: relative;
+    top: 50px;
+    animation: blocoanim1 4s 1.3s infinite ;
+}
+#bloco2{
+    position: relative;
+    top: 50px;
+    animation: blocoanim2 4s 1s infinite ;
+}
+#bloco3{
+    position: relative;
+    top: 50px;
+    animation: blocoanim3 4s 0.9s infinite ;
+}
