@@ -1,0 +1,10 @@
+:root{
+    --preto: black;
+    --branco: white;
+}
+div{
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    background-color: var(--preto);
+}

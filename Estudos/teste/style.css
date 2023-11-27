@@ -1,0 +1,31 @@
+body{
+    padding: 30px;
+}
+button{
+    position: relative;
+    border: none;
+    background-color: orange;
+    width: 140px; height: 80px;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding-left: 15px;
+}
+span{
+    transition: 1s;
+}
+
+span::after{
+    transition: all 1s;
+    content: "\00bb";
+    opacity: 0;
+}
+button:hover span::after{
+    transition: all 1s;
+    opacity: 1;
+    padding-left: 5px;
+}
+button:hover span{
+    transition: all 1s;
+    padding-right: 15px;
+}

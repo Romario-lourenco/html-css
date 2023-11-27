@@ -52,6 +52,7 @@ body{
 }
 .left .img{
     height: 200px;
+    background-image:url("abc.png") ;
 }
 .right .img{
     height: 100px;
@@ -67,3 +68,4 @@ body{
     text-align: center;
     line-height: 150px;
 }
+
